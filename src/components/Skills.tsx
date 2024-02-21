@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaJava } from 'react-icons/fa';
 import { SiCsharp, SiFirebase, SiMongodb, SiMysql, SiPhp, SiPostman, SiPython, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
 import Dots from './Dots';

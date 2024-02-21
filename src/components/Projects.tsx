@@ -1,4 +1,3 @@
-import React from 'react'
 import Dots from './Dots'
 import { Link } from 'react-router-dom'
 
