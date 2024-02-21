@@ -23,26 +23,29 @@ const TechPreferences = () => {
                 </thead>
                 <tbody className="min-w-full font-medium text-sm leading-5 text-gray-900">
                   <tr>
-                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-xs font-medium text-gray-500">
-                      🖥 Operating System
+                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-sm font-medium text-gray-500">
+                      <span> 🖥</span>
+                      <span className="ml-4">Operating System</span>
                     </td>
-                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-xs font-medium text-gray-500">
+                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-sm font-medium text-gray-500">
                       Windows
                     </td>
                   </tr>
                   <tr>
-                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-xs font-medium text-gray-500">
-                      📺 Terminal
+                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-sm font-medium text-gray-500">
+                      <span>📺</span>
+                      <span className="ml-4">Terminal</span>
                     </td>
-                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-xs font-medium text-gray-500">
+                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-sm font-medium text-gray-500">
                       <a href="https://github.com/PowerShell">PowerShell</a>
                     </td>
                   </tr>
                   <tr>
-                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-xs font-medium text-gray-500">
-                      📝 Editor
+                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-sm font-medium text-gray-500">
+                      📝
+                      <span className="ml-4">Editor</span>
                     </td>
-                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-xs font-medium text-gray-500">
+                    <td className="border-0 py-3.5 pl-4 pr-3 text-left text-sm font-medium text-gray-500">
                       <a href="https://github.com/Microsoft/vscode">
                         Visual Studio Code
                       </a>
